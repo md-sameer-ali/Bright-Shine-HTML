@@ -1,0 +1,1534 @@
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1424px;
+    }
+}
+
+@media only screen and (max-width:1550px) {
+    .banner_slider_area .swiper-slide {
+        padding: 0 50px;
+    }
+
+    .banner_area_main .swiper-pagination {
+        left: 12px;
+    }
+
+    .what_we_offer_details_area {
+        padding: 90px 0 100px 200px;
+    }
+
+    .footer_area_main {
+        padding: 36px;
+    }
+
+
+}
+
+@media only screen and (max-width:1366px) {
+    .company_member_showcase_area {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width:1199px) {
+
+    .common_heading h2 {
+        font-size: 40px;
+    }
+
+    .common_heading_small h3 {
+        font-size: 18px;
+    }
+
+    .common_para p {
+        margin-bottom: 25px;
+    }
+
+    /* MOBILE NAV start  */
+    /* MOBILE NAV start  */
+    /* MOBILE NAV start  */
+
+    .nav-area-main {
+        width: auto;
+    }
+
+    .nav-area {
+        display: block;
+        width: 100%;
+        max-width: 500px;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: -600px;
+        background-color: var(--theme-white);
+        z-index: 999;
+        transition: all 0.5s ease-in-out;
+        overflow-y: scroll;
+    }
+
+    .sub-menu li a {
+        padding: 5px 30px;
+    }
+
+
+    .mobi-nav-active {
+        display: block;
+        left: 0;
+    }
+
+
+    .mobile-nav {
+        display: block;
+    }
+
+    .nav-ul {
+        display: block;
+        margin-bottom: 15px;
+    }
+
+    .nav-ul>li>a {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px 30px 5px;
+        width: 100%;
+        position: relative;
+        font-size: 14px;
+    }
+
+    .nav-ul li:hover .dropdown-arrow i {
+        transform: unset;
+    }
+
+    .nav-ul>li>a.active .dropdown-arrow i {
+        transform: rotate(180deg);
+    }
+
+    .dropdown-arrow {
+        width: 30px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--theme-color);
+        color: #fff;
+    }
+
+    .sub-menu {
+        position: unset;
+        width: 100%;
+        display: none;
+        visibility: visible;
+        opacity: 1;
+        background-color: transparent;
+    }
+
+    .nav-ul .dropdown-nav>a::after {
+        right: 30px;
+        font-size: 12px;
+    }
+
+    .nav-ul>li {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    .nav-ul li.dropdown-nav {
+        margin-right: 0;
+    }
+
+
+    .menu_bar {
+        text-align: end;
+        display: block;
+    }
+
+    .sub-menu {
+        box-shadow: none;
+        padding: 0;
+    }
+
+    .dropdown-arrow {
+        margin-left: 5px;
+    }
+
+    .book_btn_area {
+        display: flex;
+        align-items: center;
+        column-gap: 20px;
+    }
+
+    /* MOBILE NAV END  */
+    /* MOBILE NAV END  */
+    /* MOBILE NAV END  */
+
+    /* .logo_area img {
+        max-width: 200px;
+        height: 44px;
+    } */
+
+
+    .banner_area_main {
+        padding: 0 0 80px;
+    }
+
+    .bannerSwiper {
+        height: 600px;
+    }
+
+    .banner_text_area {
+        padding: 0 50px 50px;
+    }
+
+    .banner_text_area h3 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .contact_number_area p {
+        font-size: 18px;
+    }
+
+    .social_area {
+        padding: 25px 0px;
+        left: 5%;
+    }
+
+    .social_area>p {
+        font-size: 18px;
+    }
+
+    .social_item a {
+        font-size: 16px;
+    }
+
+    .common_heading_banner :is(h1, h2, h3, h4, h5, h6) {
+        font-size: 70px;
+    }
+
+    .contact_number_area {
+        line-height: 80px;
+        padding: 0 30px;
+    }
+
+
+    .services_area_main {
+        padding: 80px 0;
+    }
+
+    .services_area .common_heading_small {
+        margin-bottom: 50px;
+    }
+
+    .tab_top_area {
+        margin-bottom: 80px;
+    }
+
+
+
+    .tab_ul li a {
+        font-size: 18px;
+    }
+
+    .tab_content_details_area {
+        padding: 0;
+        padding-right: 20px;
+    }
+
+    .cleaning_topics h3 {
+        font-size: 26px;
+    }
+
+    .which_type_of_cleaning :is(h1, h2, h3, h4, h5, h6) {
+        font-size: 20px;
+    }
+
+    .which_type_of_cleaning ul li {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .which_type_of_cleaning ul li::before {
+        font-size: 10px;
+    }
+    .which_type_of_cleaning ul li a{
+        font-size: 16px;
+    }
+
+    .tab_content_details .common_photo_design_area {
+        margin-bottom: 50px;
+    }
+
+
+    .what_we_offer_details_area {
+        width: 100%;
+    }
+
+    .what_we_cleaing_photo {
+        width: 100%;
+        position: relative;
+        bottom: unset;
+        left: unset;
+        z-index: 1;
+    }
+
+    .what_we_offer_details_area {
+        padding: 80px 50px;
+    }
+
+    .what_we_offer_details_area::after {
+        display: none;
+    }
+
+    .offer_points ul {
+        max-width: unset;
+        row-gap: 60px;
+    }
+
+
+
+
+    .about_area_main {
+        padding: 80px 0;
+    }
+
+    .about_area .common_heading h2 {
+        max-width: unset;
+    }
+
+    .about_area .tab_content_details .common_photo_design_area {
+        margin-bottom: 0;
+    }
+
+
+
+
+    .our_values_area_main {
+        padding: 80px 0;
+    }
+
+    .process_card {
+        width: 46%;
+    }
+
+    .process_card .common_heading_small h3 {
+        font-size: 26px;
+    }
+
+    .why_section_area_main .container {
+        max-width: unset;
+        padding: 0;
+    }
+
+    .why_section_area_main .what_we_offer_details_area {
+        width: 100%;
+        padding-left: 80px;
+    }
+
+    .why_section_area_main .what_we_offer_details_area::before {
+        display: none;
+    }
+
+    .why_section_area_main .what_we_cleaing_photo {
+        width: 100%;
+    }
+
+
+
+    .latest_article_area_main {
+        padding: 80px 0;
+    }
+
+    .latest_article_area .common_heading h2 {
+        margin-bottom: 50px;
+    }
+
+    .article_box .common_photo_design_area img {
+        height: 400px;
+    }
+
+    .article_box>h3 {
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+
+    .how_it_works_area_main .common_photo_design_area {
+        margin-bottom: 50px;
+    }
+
+    .service_page_area_main .tab_content_details {
+        margin-bottom: 50px;
+    }
+
+    .how_it_works_point,
+    .how_it_works_point p {
+        font-size: 24px;
+    }
+
+    .how_it_works_points_area_main {
+        padding-left: 0;
+    }
+
+
+    .faqs-area-main {
+        padding: 80px 0;
+    }
+
+    .faqs-area .accordion-container .common_heading h2 {
+        margin-bottom: 50px;
+    }
+
+    .faqs-area .set>a {
+        font-size: 20px;
+        padding: 18px 0;
+    }
+
+    .faqs-area .set>a.active {
+        font-size: 26px;
+    }
+
+    .faqs-area .content {
+        padding: 0 0 20px;
+    }
+
+
+    .footer_area_main {
+        padding: 12px;
+    }
+
+    .footer_content_area_main {
+        padding: 60px 0 30px;
+    }
+
+    .lower_footer {
+        padding: 10px 0;
+    }
+
+    /* ================================
+        ABOUT US PAGE START FROM HERE
+        ABOUT US PAGE START FROM HERE
+        ABOUT US PAGE START FROM HERE
+    ================================ */
+
+    .about_us_page_about .tab_content_details .common_photo_design_area {
+        margin-bottom: 50px;
+    }
+
+    .our_team_area .common_heading {
+        margin-bottom: 260px;
+    }
+
+    /* ================================
+        SERVICE PAGE START FROM HERE
+        SERVICE PAGE START FROM HERE
+        SERVICE PAGE START FROM HERE
+    ================================ */
+
+    .service_page_about .tab_content_details>.row {
+        align-items: center;
+        flex-wrap: wrap-reverse;
+    }
+
+    .company_qualities_area_main .company_member_showcase_area {
+        column-gap: 30px;
+        row-gap: 30px;
+    }
+
+    .team_member .common_sub_heading h3 {
+        font-size: 24px;
+    }
+
+    .scope_table_area_main h3 {
+        font-size: 35px;
+    }
+
+    .sub_head h4 {
+        font-size: 18px;
+    }
+
+    .table_area_main th {
+        padding: 30px 15px;
+        font-size: 18px;
+    }
+
+    .table_area_main td {
+        padding: 15px;
+    }
+
+    .scope_table_area_main {
+        padding: 40px 30px 0;
+    }
+
+    .service_point {
+        font-size: 22px;
+        padding: 25px 20px;
+    }
+    .fixing_class{
+        position: unset;
+    }
+    .photo_collection_area{
+        margin-bottom: 30px;
+    }
+    .residential_cleaning_area_main .tab_content_details {
+        margin-bottom: 40px;
+    }
+    .residential_cleaning_area_main .tab_content_details .cleaning_topics{
+        margin-bottom: 0;
+    }
+
+
+
+    /* ================================
+        BLOG PAGE START FROM HERE
+        BLOG PAGE START FROM HERE
+        BLOG PAGE START FROM HERE
+    ================================ */
+    .featured_blog_area_main .banner_text_area {
+        padding: 0;
+        margin-bottom: 20px;
+    }
+
+    .blog_content {
+        padding: 50px;
+    }
+
+    .blogSwiper {
+        height: 550px;
+    }
+
+    .card_details_area p {
+        font-size: 30px;
+    }
+
+    .small_posts_card_image {
+        height: 210px;
+    }
+
+    .small_posts_details .card_details_area p {
+        font-size: 22px;
+        line-height: 1.2;
+    }
+
+    /* ================================
+        CONTACT PAGE START FROM HERE
+        CONTACT PAGE START FROM HERE
+        CONTACT PAGE START FROM HERE
+    ================================ */
+    .contact_area_main {
+        padding: 80px 0;
+    }
+
+
+}
+
+@media only screen and (max-width:991px) {
+    .common_photo_design_area img {
+        height: 465px;
+    }
+
+    .logo_area img {
+        max-width: 240px;
+        height: 60px;
+    }
+
+    .common_btn {
+        padding: 0 30px;
+    }
+
+    .banner_text_area {
+        padding: 0 50px 20px;
+    }
+
+    .banner_text_area h3 {
+        font-size: 22px;
+    }
+
+    .bannerSwiper {
+        height: 450px;
+    }
+
+    .common_heading_banner :is(h1, h2, h3, h4, h5, h6) {
+        font-size: 50px;
+    }
+
+    .banner_text_area p {
+        font-size: 16px;
+    }
+
+    .contact_number_area p {
+        font-size: 16px;
+    }
+
+    .contact_number_area {
+        padding: 0 15px;
+    }
+
+    .tab_ul li {
+        padding: 15px 20px;
+    }
+
+    .tab_top_area {
+        margin-bottom: 30px;
+    }
+
+
+    .about_area .common_photo_design_area img {
+        height: 465px;
+    }
+
+    .our_values_area .common_heading {
+        margin-bottom: 50px;
+    }
+
+    .our_values_card_area {
+        row-gap: 30px;
+    }
+
+    .how_it_works_area_main {
+        padding: 80px 0 0;
+    }
+
+    .process_card {
+        width: 100%;
+        padding: 30px 25px;
+        border-right: none;
+        position: relative;
+    }
+
+    .process_card::after {
+        bottom: 0;
+    }
+
+    .process_card:nth-last-child(2)::after {
+        display: block;
+    }
+
+    .process_card .common_heading_small h3 {
+        font-size: 26px;
+    }
+
+
+
+
+    .testimonials_and_why_area_main {
+        padding: 80px 0;
+    }
+
+    .t_prev {
+        left: 42%;
+    }
+
+    .t_next {
+        right: 42%;
+    }
+
+    .testimonials_and_why_area_main::before {
+        display: none;
+    }
+
+    .why_choose_us_area {
+        padding-left: 0;
+    }
+
+    .why_choose_us_area {
+        padding: 80px 25px;
+    }
+
+
+    /* ================================
+        ABOUT US PAGE START FROM HERE
+        ABOUT US PAGE START FROM HERE
+        ABOUT US PAGE START FROM HERE
+    ================================ */
+
+
+    .common_banner_area_main {
+        padding: 150px 0;
+    }
+
+    .our_history_area_main {
+        padding: 80px 0;
+    }
+
+    .about_us_page_about .common_photo_design_area img {
+        object-position: top;
+    }
+
+    .about_our_team_box {
+        padding: 50px 50px;
+    }
+
+    .company_member_showcase_area {
+        column-gap: 35px;
+        row-gap: 94px;
+    }
+
+    .company_members_area_main {
+        padding: 170px 0 80px;
+    }
+
+    .our_team_area_main {
+        padding: 80px 0 0;
+    }
+
+    .team_member .common_heading_small h3 {
+        font-size: 22px;
+    }
+
+    .team_member_photo {
+        width: 124px;
+        height: 124px;
+        margin-top: -57px;
+    }
+
+    .designation_area {
+        font-size: 14px;
+    }
+
+    .free_consult_area_main {
+        padding: 80px 0;
+    }
+
+    .free_consult_heading h3 {
+        font-size: 34px;
+    }
+
+    /* ================================
+        SERVICE PAGE START FROM HERE
+        SERVICE PAGE START FROM HERE
+        SERVICE PAGE START FROM HERE
+    ================================ */
+    .table_area_main {
+        overflow: scroll;
+    }
+
+    .table_area_main table {
+        min-width: 900px;
+    }
+
+    /* ================================
+        BLOG PAGE START FROM HERE
+        BLOG PAGE START FROM HERE
+        BLOG PAGE START FROM HERE
+    ================================ */
+    .big_card_area {
+        padding: 15px 15px 40px;
+        background-color: #fff;
+        filter: drop-shadow(0px 3px 40.5px rgba(0, 0, 0, 0.11));
+        margin-bottom: 45px;
+    }
+
+    .card_image_area {
+        height: 300px;
+    }
+
+    .posts_card_area_main,
+    .latest_blog_article_area_main {
+        padding: 80px 0;
+    }
+
+    .row_gap_class>* {
+        padding: 0 12px;
+    }
+
+    /* ================================
+        CONTACT PAGE START FROM HERE
+        CONTACT PAGE START FROM HERE
+        CONTACT PAGE START FROM HERE
+    ================================ */
+    .contact_area_main {
+        padding: 80px 0;
+    }
+
+    .contact_number p {
+        font-size: 16px;
+    }
+
+    /* ESTIMATE  */
+    /* ESTIMATE  */
+    /* ESTIMATE  */
+
+    .estimate_bill_area .square_ft_area p{
+        padding: 30px 50px;
+    }
+
+    .mission_vision_area_main .which_type_of_cleaning :is(h1, h2, h3, h4, h5,h6) {
+        font-size: 30px;
+    }
+    .mission_vision_area_main .which_type_of_cleaning h6 {
+        font-size: 26px;
+    }
+
+}
+
+
+@media only screen and (max-width:767px) {
+
+
+    .common_btn {
+        padding: 0 15px;
+        line-height: 35px;
+        font-size: 12px;
+        letter-spacing: 2px;
+    }
+
+    .common_para p {
+        font-size: 14px;
+    }
+
+    .common_heading_small h3 {
+        font-size: 22px;
+    }
+
+    .common_heading h2 {
+        font-size: 30px;
+    }
+
+    .common_heading_small h3 {
+        font-size: 14px;
+    }
+
+    .common_photo_design_area {
+        padding: 12px;
+    }
+
+    .common_photo_design_area img {
+        height: 250px;
+    }
+
+    .nav-area {
+        left: -100%;
+    }
+
+    .mobi-nav-active {
+        display: block;
+        left: 0;
+    }
+
+    .book_btn_area {
+        column-gap: 10px;
+    }
+
+    .right_arrow {
+        width: 29px;
+        height: 12px;
+    }
+
+    .header_area_main {
+        padding: 15px 0;
+    }
+
+    .logo_area img {
+        max-width: 180px;
+        height: 36px;
+    }
+
+    .banner_area_main {
+        padding: 0 0 50px;
+    }
+
+    .banner_slider_area .swiper-slide {
+        padding: 0 12px;
+    }
+
+    .social_area {
+        padding: 10px 0px;
+    }
+
+    .banner_area_main::after {
+        width: 40%;
+    }
+
+    .bannerSwiper {
+        height: 350px;
+    }
+
+    .banner_text_area {
+        padding: 0 0 50px;
+    }
+
+    .banner_text_area h3::after {
+        bottom: unset;
+        top: 13px;
+    }
+
+    .banner_slider_area .swiper-pagination-bullet {
+        display: inline-block;
+        opacity: 1;
+    }
+
+    .banner_area_main .swiper-pagination {
+        top: unset;
+        bottom: 5px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .banner_slider_area .swiper-pagination-bullet {
+        background: #fff;
+        margin: 5px !important;
+    }
+
+    .banner_slider_area .swiper-pagination-bullet-active {
+        background: #fff;
+    }
+
+    .banner_slider_area .swiper-pagination-bullet-active::before {
+        border-color: #fff;
+    }
+
+    .banner_text_area h3 {
+        font-size: 20px;
+    }
+
+    .common_heading_banner :is(h1, h2, h3, h4, h5, h6) {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
+    .banner_text_area p {
+        font-size: 14px;
+    }
+
+    .contact_number_area {
+        line-height: normal;
+        padding: 12px 15px;
+    }
+
+    .contact_number_area p {
+        font-size: 13px;
+    }
+
+    .contact_number_area p a {
+        display: block;
+    }
+
+    .social_area {
+        column-gap: 10px;
+    }
+
+    .social_area>p {
+        font-size: 12px;
+    }
+
+    .social_item {
+        display: none;
+    }
+
+    .social_item:first-child,
+    .social_item:nth-child(2) {
+        display: block;
+    }
+
+
+    .cleaning_topics h3 {
+        font-size: 24px;
+    }
+
+    .which_type_of_cleaning :is(h1, h2, h3, h4, h5, h6) {
+        font-size: 20px;
+    }
+
+    .which_type_of_cleaning ul li {
+        font-size: 14px;
+    }
+
+    .tab_top_area {
+        overflow-x: scroll;
+    }
+
+    .tab_ul {
+        width: 800px;
+        padding-bottom: 10px;
+    }
+
+    .tab_ul li {
+        padding: 15px 20px;
+        max-width: 350px;
+    }
+
+    .tab_ul li.active {
+        filter: unset;
+    }
+    
+
+
+
+    .services_area_main {
+        padding: 50px 0;
+    }
+
+    .services_area :is(.common_heading) {
+        margin-bottom: 10px;
+    }
+
+    .what_we_offer_details_area {
+        padding: 50px 22px;
+    }
+
+    .what_we_offer_details_area .common_heading_small h3 {
+        margin-bottom: 10px;
+    }
+
+    .what_we_offer_details_area .common_heading_small h3::after {
+        height: 10px;
+        bottom: -2px;
+    }
+
+    .offer_points ul {
+        max-width: unset;
+        row-gap: 40px;
+    }
+
+    .offer_points ul li {
+        width: 100%;
+    }
+
+    .points_area h4 {
+        font-size: 18px;
+    }
+
+    .what_we_cleaing_photo {
+        padding: 20px
+    }
+
+    .what_we_cleaing_photo img {
+        height: 250px;
+    }
+
+
+
+    .about_area_main {
+        padding: 50px 0;
+    }
+
+    .about_area .common_heading_small h3 {
+        margin-bottom: 15px;
+    }
+
+    .about_area .common_heading h2 {
+        margin-bottom: 15px;
+    }
+
+    .about_area .common_photo_design_area img {
+        height: 250px;
+    }
+
+    .founder_text p {
+        font-size: 14px;
+    }
+
+
+
+
+    .our_values_area_main {
+        padding: 50px 0;
+    }
+
+    .our_values_card_area .common_heading_small {
+        margin-bottom: 15px;
+    }
+
+    .process_card .common_heading_small h3 {
+        font-size: 20px;
+    }
+
+
+    .testimonials_and_why_area .common_heading h2 {
+        margin-bottom: 30px;
+    }
+
+    .testimonials_and_why_area_main {
+        padding: 50px 0;
+    }
+
+    .testimonial_content_area {
+        padding: 30px 12px 130px;
+    }
+
+
+    .testimonial_person {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 30px;
+    }
+
+    .testimonial_content>p {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .testimonial_person_name p {
+        font-size: 18px;
+    }
+
+    .testimonial_person::before {
+        width: 31px;
+        height: 26px;
+        left: -35px;
+    }
+
+    .t_next {
+        right: 34%;
+    }
+
+    .t_prev {
+        left: 34%;
+    }
+
+    .why_choose_us_area .points_area {
+        margin-bottom: 40px;
+    }
+
+    .why_choose_us_area {
+        padding: 50px 25px;
+    }
+
+    .why_section_area_main .what_we_offer_details_area {
+        padding-left: 22px;
+    }
+
+    .why_section_area_main .what_we_cleaing_photo img {
+        height: 250px;
+    }
+
+    .points_area h4::before {
+        width: 15px;
+        height: 15px;
+        left: -5px;
+        bottom: -2px;
+    }
+
+    .latest_article_area .common_heading h2 {
+        margin-bottom: 30px;
+    }
+
+    .latest_article_area_main {
+        padding: 50px 0;
+    }
+
+    .article_area_main {
+        row-gap: 40px;
+    }
+
+    .article_box {
+        width: 100%;
+    }
+
+    .article_box>h3 {
+        font-size: 26px;
+    }
+
+    .article_box .common_photo_design_area img {
+        height: 240px;
+    }
+
+    .date_main {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+
+    .how_it_works_area_main {
+        padding: 50px 0 0;
+    }
+
+    .how_it_works_points_area_main {
+        padding-left: 30px;
+        padding-bottom: 30px;
+    }
+
+    .how_it_works_points_area {
+        padding-left: 40px;
+    }
+
+    .how_it_works_point::before {
+        left: -55px;
+    }
+
+    .how_it_works_point,
+    .how_it_works_point p {
+        font-size: 20px;
+        line-height: 1.3;
+    }
+
+
+    .faqs-area-main {
+        padding: 50px 0;
+    }
+
+    .faqs-area .set>a.active {
+        font-size: 20px;
+    }
+
+    .faqs-area .set>a {
+        font-size: 18px;
+        padding: 15px 0;
+    }
+    .faqs-area .content p{
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+
+
+    .footer_content_area_main {
+        padding: 40px 0 20px;
+    }
+
+    .footer_area_main::after {
+        height: 100%;
+    }
+
+    .bg_design {
+        width: 300%;
+        height: 220%;
+        position: absolute;
+        top: -120%;
+        left: -100%;
+    }
+
+    .footer_content_area h6 {
+        font-size: 18px;
+    }
+
+    .footer_nav_ul li {
+        margin-bottom: 20px;
+    }
+
+    .footer_nav_ul li a {
+        font-size: 16px;
+    }
+
+    .footer_content_area_main>.row>* {
+        margin-bottom: 30px;
+    }
+
+    .logo_and_about .common_para p {
+        margin-bottom: 20px;
+    }
+
+    .icon_area {
+        width: 50px;
+        height: 50px;
+    }
+
+    .icon_area i {
+        font-size: 18px;
+    }
+
+    /* ================================
+        ABOUT US PAGE START FROM HERE
+        ABOUT US PAGE START FROM HERE
+        ABOUT US PAGE START FROM HERE
+    ================================ */
+
+    .common_banner_area_main {
+        padding: 100px 0;
+        background-position-x: center;
+    }
+
+    .company_member_showcase_area {
+        grid-template-columns: 1fr;
+    }
+
+    .our_history_area_main {
+        padding: 50px 0;
+    }
+
+    .our_history_area .common_heading h2 {
+        margin-bottom: 30px;
+    }
+
+    .our_team_area_main {
+        padding: 50px 0 0;
+    }
+
+    .about_our_team_box {
+        padding: 30px 30px;
+    }
+
+    .our_team_area .common_heading {
+        margin-bottom: 50px;
+    }
+
+    .company_members_area_main {
+        padding: 110px 0 50px;
+    }
+
+    .free_consult_heading h3 {
+        font-size: 22px;
+    }
+
+    /* ================================
+        SERVICE PAGE START FROM HERE
+        SERVICE PAGE START FROM HERE
+        SERVICE PAGE START FROM HERE
+    ================================ */
+
+    .company_qualities_area_main {
+        padding: 50px 0;
+    }
+
+    .check_img {
+        width: 40px;
+        height: 40px;
+        margin-bottom: 20px;
+    }
+
+    .collection_photo img {
+        height: 170px;
+        margin-bottom: 12px;
+    }
+
+    .big_photo_area {
+        height: 352px;
+    }
+
+    .photo_collection_area>.row {
+        margin: 0 -6px;
+    }
+
+    .photo_collection_area>.row>* {
+        padding: 0 6px;
+    }
+
+    .pricing_area_main {
+        padding: 50px 0;
+    }
+
+    .pricing_area_main .common_sub_heading h3 {
+        font-size: 30px;
+    }
+
+    .pricing_area_main .common_heading {
+        margin-bottom: 25px;
+    }
+
+    .service_list_area {
+        padding-left: 0;
+        margin-bottom: 40px;
+    }
+
+    .service_list_item {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .service_page_area_main .tab_content_details_area {
+        padding: 0;
+    }
+
+    .service_page_area_main .tab_content_details {
+        margin-bottom: 30px;
+    }
+
+    .scope_table_area_main {
+        padding: 30px 20px 0;
+    }
+
+    .scope_table_area_main h3 {
+        font-size: 26px;
+    }
+
+    .sub_head h4 {
+        font-size: 16px;
+    }
+
+    .service_points_area {
+        gap: 12px;
+        margin-bottom: 30px;
+    }
+
+    .service_point {
+        font-size: 16px;
+        padding: 15px 10px;
+    }
+    .how_it_works_point::before {
+        left: -52px;
+        width: 24px;
+        height: 24px;
+    }
+    .table_area_main th {
+        padding: 20px 15px;
+        font-size: 16px;
+    }
+    
+
+    /* ================================
+        BLOG PAGE START FROM HERE
+        BLOG PAGE START FROM HERE
+        BLOG PAGE START FROM HERE
+    ================================ */
+
+    .posts_card_area_main,
+    .latest_blog_article_area_main {
+        padding: 50px 0;
+    }
+
+    .card_image_area {
+        height: 250px;
+        margin-bottom: 20px;
+    }
+
+    .card_details_area p {
+        font-size: 26px;
+    }
+
+    .big_card_area,
+    .small_cards_area {
+        margin-bottom: 25px;
+    }
+
+    .small_posts_card_image {
+        height: 140px;
+    }
+
+    .small_posts_details .card_details_area p {
+        font-size: 18px;
+        line-height: 1.2;
+    }
+
+    .blogSwiper {
+        width: 90%;
+        height: 350px;
+    }
+
+    .blogSwiper :is(.swiper-pagination-vertical.swiper-pagination-bullets, .swiper-vertical>.swiper-pagination-bullets) {
+        left: 2%;
+    }
+
+    .blog_content {
+        padding: 25px;
+    }
+
+    /* ================================
+        CONTACT PAGE START FROM HERE
+        CONTACT PAGE START FROM HERE
+        CONTACT PAGE START FROM HERE
+    ================================ */
+    .contact_area_main {
+        padding: 50px 0;
+    }
+
+    .contact_number p {
+        font-size: 16px;
+    }
+
+    .contact_area_details {
+        padding-right: 0;
+    }
+
+    .input_area input {
+        height: 45px;
+    }
+
+    .select_area select {
+        height: 45px;
+    }
+
+    .contact_form_area_main :is(.input_area, .select_area) {
+        margin-bottom: 15px;
+        font-size: 14px;
+    }
+    .lower_footer p {
+        font-size: 12px;
+    }
+
+    /* ESTIMATE  */
+    /* ESTIMATE  */
+    /* ESTIMATE  */
+
+    .estimate_area_main {
+        padding: 50px 0;
+    }
+    .free_estimate_area {
+        padding: 30px 20px 20px;
+    }
+    .free_estimate_area .common_heading h2 {
+        font-size: 26px;
+    }
+    .cleaning_level_text {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .level_of_cleaning > * {
+        margin-bottom: 15px;
+    }
+    .level_of_cleaning .select_area select{
+        font-size: 16px;
+        padding: 12px 50px 12px 12px;
+    }
+    .square_ft_input_area input{
+        font-size: 16px;
+        padding: 12px 50px 12px 12px;
+    }
+    .estimate_bill_area .common_heading {
+        padding: 20px 20px 20px;
+    }
+    .estimate_bill_area .common_heading h2 {
+        font-size: 22px;
+    }
+    .estimate_bill_area .square_ft_area p:first-child {
+        padding: 12px 10px 12px 12px;
+    }
+    .estimate_bill_area .square_ft_area p {
+        font-size: 14px;
+    }
+    .estimate_bill_area .square_ft_area p:nth-child(2){
+        padding: 12px 10px 12px 12px;
+    }
+    .select_area::before, .select_area::after {
+        --size: 4px;
+    }
+    .addons_area {
+        margin-bottom: 15px;
+    }
+    .addons_area label {
+        font-size: 16px;
+    }
+    .add_number_input {
+        width: 40px;
+        height: 30px;
+        font-size: 14px;
+    }
+    .estimate_bill_area .total_estimate_area p {
+        font-size: 18px;
+    }
+
+
+    .mission_vision_area_main {
+        padding: 50px 0;
+    }
+    .mission_vision_area_main .common_photo_design_area img {
+        height: 325px;
+    }
+    .why_page_points_area_main .process_card .common_heading_small h3{
+        font-size: 20px;
+    }
+    .icon_heading_area i {
+        font-size: 45px;
+    }
+    .why_page_points_area_main .process_card {
+        padding: 20px 15px 25px;
+    }
+
+
+}
+
+@media only screen and (max-width:360px) {
+    .logo_area img {
+        max-width: 130px;
+        height: 28px;
+    }
+
+    .common_btn {
+        font-size: 10px;
+    }
+
+    .contact_number_area p {
+        font-size: 12px;
+    }
+
+  
+}
